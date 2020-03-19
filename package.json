@@ -1,0 +1,50 @@
+{
+  "name": "test-storybook-tests-vuetify",
+  "version": "1.0.0",
+  "description": "My wicked Nuxt.js project",
+  "author": "Jonathan",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "prism-react-renderer": "^0.1.7",
+    "@mdi/font": "^4.5.95",
+    "@storybook/addon-a11y": "^5.2",
+    "@storybook/addon-actions": "^5.2",
+    "@storybook/vue": "^5.3.17",
+    "@storybook/addon-knobs": "^5.2",
+    "@storybook/addon-notes": "^5.2",
+    "@storybook/addon-viewport": "^5.2",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/addons": "^5.3.17",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^24.1.0",
+    "prettier": "^1.19.1",
+    "vue-jest": "^4.0.0-0"
+  }
+}
